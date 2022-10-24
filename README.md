@@ -55,7 +55,9 @@ This analysis work running only one code -> SCRIPT NAME: [Op_genes_motifs.py](ht
 OUTPUTS: <br>
 - list of DEGs that have the motif in their sequence (STDOUT= [up_genes_match_motif_out.txt](https://github.com/cyntsc/Motif_Detectives/blob/main/up_genes_match_motif_out.txt))
 
-## Development of a Graphical User Interface
+## Development of GUI 
+In order to present this program as user-friendly plataform, we implemented a graphical user interface (GUI) with the previous scripts. By running a Python script (name.py) a window will pop-out for the user to type the motif sequence of interest, and the program will display on the GUI  the same output as Step4. <br>
 
+SCRIPT = [md_gui.py](https://github.com/cyntsc/Motif_Detectives/blob/main/md_gui.py) <br>
 
 ![VISUAL_I](https://github.com/Bla880/Motif_Detectives/blob/main/Fig_2_GUI.png)
